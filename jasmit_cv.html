@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+    integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+    crossorigin="anonymous"></script>
+    
+
+  <link rel="stylesheet" href="./fontawesome-free-6.3.0-web/css/all.css" />
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="main">
+    <div id="side_menu" class="side_menu">
+      <div class="title-sm">
+        <h2 id="logo">Jasmit</h2>
+      </div>
+      <div class="menu_option">
+        <div id="home-sm" class="link">
+          <span class="icon-sm"><i class="fa-solid fa-house fa-2x"></i></span>
+          <span>
+            <a id="home-ss" class=" active main-butnn-sm fa-2x" onclick="home_display()" >Home</a>
+          </span>
+          <hr class="menu-hr-sm" />
+        </div>
+        <div id="about-sm" class="link">
+          <span class="icon-sm"><i class="fa-solid fa-user fa-2x"></i></span>
+          <span>
+            <a href="#" class="main-butnn-sm fa-2x" onclick="about_display()" id="about-ss">About</a>
+          </span>
+          <hr class="menu-hr-sm" />
+        </div>
+        <div id="service-sm" class="link">
+          <span class="icon-sm"><i class="fa-solid fa-list fa-2x"></i></span>
+          <span>
+            <a href="#"  class="main-butnn-sm fa-2x" onclick="Service_display()" id="service-ss">Service</a>
+          </span>
+          <hr class="menu-hr-sm" />
+        </div>
+        <div id="potfolio-sm" class="link">
+          <span class="icon-sm"><i class="fa-solid fa-bag-shopping fa-2x"></i></span>
+          <span>
+            <a href="#"  class="main-butnn-sm fa-2x"  onclick="portfolio_display()" id="potfolio-ss">Portfolio</a>
+          </span>
+          <hr class="menu-hr-sm" />
+        </div>
+        <div id="Contact-sm" class="link">
+          <span class="icon-sm" id="contact"><i class="fa-solid fa-envelope fa-2x"></i></span>
+          <span>
+            <a href="#"  class="main-butnn-sm fa-2x" onclick="Contact_display()" id="contact-ss">Contact</a>
+          </span>
+          <hr class="menu-hr-sm" />
+        </div>
+      </div>
+    </div>
+    <div id="home-display">
+      <div id="text-col-h">
+        <div id="text-1-h">
+          <p>
+            Hello, my name is <span class="color-txt-hd" id="cursive">Jasmit singh</span>
+          </p>
+        </div>
+        <div id="text-2-h">
+          <p>
+            I'm a<span class="color-txt-hd" id="animation-area"> Web developer</span>
+          <div id="mover-in-animation"></div>
+          </p>
+
+        </div>
+        <div id="text-3-h">
+          <p>
+            Self-motivated and hardworking fresher seeking for an opportunity
+            to work in a challenging environment to prove my skills and
+            utilize my knowledge & intelligence in the growth of the
+            organization.
+          </p>
+        </div>
+        <div id="buttn-hd">
+          <button id="More-abt-me" onclick="about_display()">About Me </button>
+        </div>
+      </div>
+      <div id="image-col-h">
+        <img src="./WhatsApp Image 2023-02-21 at 16.40.021 (1).png" alt="image" id="img" />
+      </div>
+    </div>
+    <div id="about-display">
+      <div id="main-heading-ab">
+        <h2>About Me</h2>
+        <hr class="hr-c" id="one-h-ab-m">
+        <hr class="hr-c" id="two-h-ab-m">
+
+      </div>
+      <div class="" id="sub-heading">
+        <h3>I'm Jasmit singh and <span class="color-txt-hd" id="sub-head-part">Web developer</span></h3>
+      </div>
+      <div class="" id="ab-description">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Error culpa neque rem animi! Repellat, ex quod ab
+          veritatis possimus magni provident a, deserunt, qui inventore rerum quidem fugit dicta consectetur incidunt
+          alias explicabo natus corporis sapiente doloribus. Ipsa suscipit doloremque rerum, vel dolor minima enim
+          maxime quo eaque culpa molestias.
+        </p>
+      </div>
+      <div class="d-section" id="details-section">
+
+        <div id="col-1">
+          <p><span class="d-section-c">Birthday&nbsp;:</span>&nbsp;11&nbsp;august&nbsp;2002</p>
+          <hr>
+          <p><span class="d-section-c">Website&nbsp;:</span>&nbsp;www.jasmit.com</p>
+          <hr>
+          <p><span class="d-section-c">Degree&nbsp;:</span>&nbsp;BCA</p>
+          <hr>
+          <p><span class="d-section-c">City&nbsp;:</span>&nbsp;New&nbsp;Delhi</p>
+          <hr>
+        </div>
+        <div id="col-2">
+          <p><span class="d-section-c">Age&nbsp;:</span>&nbsp;20&nbsp;years</p>
+          <hr>
+          <p><span class="d-section-c">Email&nbsp;:</span>&nbsp;jasmits007@gmail.com</p>
+          <hr>
+          <p><span class="d-section-c">Phone&nbsp;:</span>&nbsp;+91&nbsp;9818864821</p>
+          <hr>
+          <p><span class="d-section-c">Country&nbsp;:</span>&nbsp;India</p>
+          <hr>
+        </div>
+
+
+      </div>
+      <div class="buttn">
+        <button id="b1">Download My Cv</button>
+        <button id="b2" onclick="">Hire me</button>
+      </div>
+      <div class="" id="Education-s-a">
+        <div class="" id="e-main-heading">
+          <h3>Education</h3>
+          <hr class="seveen-7">
+        </div>
+
+        <div class="" id="e-b">
+          <div class="" id="col1">
+            <div class="" id="row-1">
+              <div class="icon">
+                <i class="fa-regular fa-calendar "></i>
+                <span id="date">2018-2019</span>
+              </div>
+              <div class="text-e-b">
+                <h5>Secondary Education</h5>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo saepe quisquam, mollitia ex corporis
+                  quis deleniti consectetur omnis qui reiciendis!
+                </p>
+              </div>
+            </div>
+            <div  id="row-2">
+              <div class="icon">
+                <i class="fa-regular fa-calendar "></i>
+                <span id="date">2020-2021</span>
+              </div>
+              <div class="text-e-b">
+                <h5> Higher Secondary Education</h5>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo saepe quisquam, mollitia ex corporis
+                  quis deleniti consectetur omnis qui reiciendis!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div id="col2">
+            <div class="" id="row-1-c">
+              <div class="icon">
+                <i class="fa-regular fa-calendar "></i>
+                <span id="date">2021-2024</span>
+              </div>
+              <div class="text-e-b">
+                <h5>Graduation(BCA)</h5>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo saepe quisquam, mollitia ex corporis
+                  quis deleniti consectetur omnis qui reiciendis!
+                </p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="sevice-d">
+      <div class="" id="main-heading-s">
+        <h2>Service</h2>
+        <hr class="hr-c" id="one-h-ab-m">
+        <hr class="hr-c" id="two-h-ab-m">
+      </div>
+      <div  id="list-s">
+        <div  id="row-1-s">
+
+          <div id="col0-s">
+            <div class="icon-s">
+              <i class="fa-solid fa-mobile-screen-button fa-2x"></i>
+            </div>
+            <div class="title">
+              <h4>Responsive</h4>
+            </div>
+            <div class="text">
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur dolorum ratione autem error
+                delectus in maiores, sequi accusantium harum dicta.
+              </p>
+            </div>
+          </div>
+        
+          <div id="col1-s">
+            <div class="icon-s">
+              <i class="fa-solid fa-laptop fa-2x"></i>
+            </div>
+            <div class="title">
+              <h4>Responsive</h4>
+            </div>
+            <div class="text">
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur dolorum ratione autem error
+                delectus in maiores, sequi accusantium harum dicta.
+              </p>
+            </div>
+          </div>
+          
+          <div id="col2-s">
+            <div class="icon-s">
+              <i class="fa-sharp fa-solid fa-palette fa-2x"></i>
+            </div>
+            <div class="title">
+              <h4>Responsive</h4>
+            </div>
+            <div class="text">
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur dolorum ratione autem error
+                delectus in maiores, sequi accusantium harum dicta.
+              </p>
+            </div>
+          </div>
+          <div id="col3-s">
+            <div class="icon-s">
+              <i class="fa-sharp fa-solid fa-code fa-2x"></i>
+            </div>
+            <div class="title">
+              <h4>Responsive</h4>
+            </div>
+            <div class="text">
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur dolorum ratione autem error
+                delectus in maiores, sequi accusantium harum dicta.
+              </p>
+            </div>
+          </div>
+          <div id="col4-s">
+            <div class="icon-s">
+              <i class="fa-sharp fa-solid fa-magnifying-glass fa-2x"></i>
+            </div>
+            <div class="title">
+              <h4>Responsive</h4>
+            </div>
+            <div class="text">
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur dolorum ratione autem error
+                delectus in maiores, sequi accusantium harum dicta.
+              </p>
+            </div>
+          </div>
+          <div id="col5-s">
+            <div class="icon-s">
+              <i class="fa-solid fa-bullhorn fa-2x"></i>
+            </div>
+            <div class="title">
+              <h4>Responsive</h4>
+            </div>
+            <div class="text">
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aspernatur dolorum ratione autem error
+                delectus in maiores, sequi accusantium harum dicta.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="portfolio-d">
+      <div class="" id="main-heading-p">
+        <h2>Portfolio</h2>
+        <hr class="hr-c" id="one-h-ab-p">
+        <hr class="hr-c" id="two-h-ab-p">
+      </div>
+      <div class="" id="sub-heading-p">
+        <h3>My Projects :</h3>
+      </div>
+      <div class="" id="p-list">
+
+        <div class="col"> Ecommerce Website :- <a href="http://dnkecommerce.shop:8000/" target="_blank">dnkecommerce.shop</a><img src="./Project1.jpg" /> </div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+        <div class="col"></div>
+
+      </div>
+    </div>
+    <div id="contact-d">
+      <div class="" id="main-heading-c">
+        <h2>Contact</h2>
+        <hr class="hr-c" id="one-h-ab-c">
+        <hr class="hr-c" id="two-h-ab-c">
+      </div>
+      <div class="sub-heading-c-1">
+        <h3>Have You Any Question ?</h3>
+      </div>
+      <div class="sub-heading-c-2">
+        <h4>I'M AT YOUR SERVICE </h4>
+      </div>
+      <div class="c-list">
+        <div id="col1">
+          <div class="icon-c"><i class="fa-solid fa-phone-volume fa-2x"></i></div>
+          <div class="title">Call Us On</div>
+          <div class="text">+91 9818864821</div>
+        </div>
+        <div id="col2">
+          <div class="icon-c"> <i class="fa-solid fa-location-dot fa-2x"></i></div>
+          <div class="title">office</div>
+          <div class="text">shastri Nagar,New Delhi</div>
+        </div>
+        <div id="col3">
+          <div class="icon-c"><i class="fa-solid fa-envelope fa-2x"></i></div>
+          <div class="title">Email</div>
+          <div class="text">jasmits53@gmail</div>
+        </div>
+        <div id="col4">
+          <div class="icon-c"><i class="fa-sharp fa-solid fa-globe fa-2x"></i></div>
+          <div class="title">Website</div>
+          <div class="text">www.jasmit.com</div>
+        </div>
+      </div>
+      <div class="sub-heading-c-1">
+        <h3>SEND ME AN EMAIL</h3>
+      </div>
+      <div class="sub-heading-c-2">
+        <h4>I'M VERY RESPONSIVE TO MESSAGES </h4>
+      </div>
+      <div class="form">
+        <form>
+          <input type="text" placeholder="Name" class="input" id="in-1">
+          <input type="email" placeholder="Email" class="input" id="in-2">
+          <br>
+          <input type="text" placeholder="Subject" class="input" id="in-3">
+          <br>
+          <textarea placeholder="MESSAGES" class="input" id="in-4" cols="100" rows="10"></textarea>
+          <br>
+          <button type="submit" id="c-buttn">Send Messages</button>
+        </form>
+      </div>
+    </div>
+    <div class="theme" id="color-change">
+      
+      
+      <div id="setting" class="icon-t">
+        <a onclick="show_color_theme()"> <i class="fa-solid fa-gear fa-2x"></i></a>
+      </div>
+
+
+      <div id="color-choose">
+        <h5 id="h-theme-color">Theme Color</h5>                                              
+        <div id="color-list">
+       
+          <div id="color1" onclick="red()"></div>
+          <div id="color2"><a onclick="tomato()"></a></div>
+          <div id="color3"><a onclick="green()"></a></div>
+          <div id="color4"><a onclick="blue()"></a></div>
+          <div id="color5"><a onclick="pink()"></a></div>
+        </div>
+       </div>
+      <div id="dark" class="icon-t">
+       <a onclick="dark_themef()"> <i class="fa-solid fa-moon fa-2x"></i></a>
+      </div>
+     <div id="light" class="icon-t">
+      <a onclick="dark_themef()"><i class="fa-sharp fa-solid fa-sun fa-2x" ></i></a>
+     </div>
+
+
+    </div>
+   
+    <div id="hide-show">
+      <div id="icon-show" ><a  onclick="show_menu()"><i class="fa-solid fa-bars fa-2x"></i></a></div>
+      <div id="icon-hide"><a onclick="hide_menu()"><i class="fa-solid fa-xmark fa-2x"></i></a></div>
+    </div>
+  </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+
+</html>
